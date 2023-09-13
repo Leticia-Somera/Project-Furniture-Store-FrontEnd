@@ -11,6 +11,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 1.6rem;
     line-height: 2;
+    margin: 25px;
 }
 
 /** Globales **/
@@ -63,6 +64,15 @@ img {
 /** Utilidades **/
 .text-center {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.text-nosotros {
+    margin: 2px;
 }
 
 /** Header y navegación **/
